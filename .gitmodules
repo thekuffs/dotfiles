@@ -4,3 +4,6 @@
 [submodule "vim/bundle/kien-ctrlp"]
 	path = vim/bundle/kien-ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/msanders-snipmate"]
+	path = vim/bundle/msanders-snipmate
+	url = https://github.com/msanders/snipmate.vim.git
