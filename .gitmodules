@@ -13,3 +13,12 @@
 [submodule "vim/bundle/altercation-vim-colors-solarized"]
 	path = vim/bundle/altercation-vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/groenewege-vim-less"]
+	path = vim/bundle/groenewege-vim-less
+	url = https://github.com/groenewege/vim-less.git
+[submodule "vim/bundle/hail2u-vim-css3-syntax"]
+	path = vim/bundle/hail2u-vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "vim/bundle/vim-scripts-aspnetcs"]
+	path = vim/bundle/vim-scripts-aspnetcs
+	url = https://github.com/vim-scripts/aspnetcs.git
