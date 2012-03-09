@@ -73,3 +73,7 @@ set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
 
+" keybindings
+" Tap enter to stop highlighting search, highlighting returns upon pressing n
+" or new search.
+nnoremap <CR> :noh<CR><CR>
