@@ -19,6 +19,7 @@ set autoread
 set ruler
 set modeline
 syntax on
+colorscheme solarized
 
 " gui
 set guioptions=egm

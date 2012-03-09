@@ -10,3 +10,6 @@
 	path = vim/bundle/msanders-snipmate
 	url = https://github.com/msanders/snipmate.vim.git
     ignore = dirty
+[submodule "vim/bundle/altercation-vim-colors-solarized"]
+	path = vim/bundle/altercation-vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
