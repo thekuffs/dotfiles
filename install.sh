@@ -9,4 +9,7 @@ for file in zshrc vimrc vim ; do
   ln -s $DIR/$file ~/.$file
 done
 
+# init and update vim plugin submodules
+git submodule update --init
+
 cd $DIR
