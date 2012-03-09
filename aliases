@@ -1,0 +1,5 @@
+# ls
+alias ls="ls -G -F"
+alias ll="ls -G -F -l"
+alias la="ls -G -F -l -a"
+
