@@ -1,0 +1,7 @@
+[alias]
+    s = status --short
+    og = log origin/master..HEAD
+[color]
+    ui = always
+[format]
+    pretty = oneline
