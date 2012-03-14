@@ -12,6 +12,6 @@ done
 # init and update vim plugin submodules
 git submodule update --init
 
-echo "$DIR" > ~/.dotfiles
+ln -s $DIR ~/.dotfiles
 
 cd $DIR

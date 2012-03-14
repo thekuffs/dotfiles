@@ -5,7 +5,7 @@ else
   begin
     ARGV.each do|a|
       bundle_path=a.gsub("https://github.com/","").gsub(".git","").gsub("/","-").gsub(".vim","")
-      system("cd `cat ~/.dotfiles` && git submodule add #{a} vim/bundle/#{bundle_path}")
+      system("cd ~/.dotfiles && git submodule add #{a} vim/bundle/#{bundle_path}")
     end
   rescue
     puts "Sorry, couldn't parse your path: #{$!}"
