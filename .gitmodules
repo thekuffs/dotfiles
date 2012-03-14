@@ -22,3 +22,6 @@
 [submodule "vim/bundle/vim-scripts-aspnetcs"]
 	path = vim/bundle/vim-scripts-aspnetcs
 	url = https://github.com/vim-scripts/aspnetcs.git
+[submodule "vim/bundle/hallettj-jslint"]
+	path = vim/bundle/hallettj-jslint
+	url = https://github.com/hallettj/jslint.vim
