@@ -25,3 +25,6 @@
 [submodule "vim/bundle/hallettj-jslint"]
 	path = vim/bundle/hallettj-jslint
 	url = https://github.com/hallettj/jslint.vim
+[submodule "vim/bundle/Lokaltog-vim-powerline"]
+	path = vim/bundle/Lokaltog-vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline

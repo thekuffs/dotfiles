@@ -18,6 +18,8 @@ set showmode
 set autoread
 set ruler
 set modeline
+set laststatus=2 " always show statusline
+set encoding=utf-8
 syntax on
 colorscheme solarized
 
@@ -77,3 +79,10 @@ set sidescroll=1
 " Tap enter to stop highlighting search, highlighting returns upon pressing n
 " or new search.
 nnoremap <CR> :noh<CR><CR>
+
+
+" Load custom settings for vim plugins
+for f in split(glob('~/.vim/plugin/settings/*.vim'), '\n')
+    exe 'source' f
+endfor
+
