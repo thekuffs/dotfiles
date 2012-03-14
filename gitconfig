@@ -1,4 +1,6 @@
 [alias]
+    l = log
+    lp = log --pretty=raw
     s = status --short
     og = log origin/master..HEAD
 [color]
