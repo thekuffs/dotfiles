@@ -20,6 +20,7 @@ set ruler
 set modeline
 set laststatus=2 " always show statusline
 set encoding=utf-8
+set bg=dark
 syntax on
 colorscheme solarized
 
@@ -86,3 +87,6 @@ for f in split(glob('~/.vim/plugin/settings/*.vim'), '\n')
     exe 'source' f
 endfor
 
+if filereadable(expand("~/.vimrc.after"))
+    source ~/.vimrc.after
+endif

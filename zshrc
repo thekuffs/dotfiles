@@ -18,7 +18,7 @@ fi
 source ~/.aliases
 
 # Things I don't want to publish to github
-[[ -s "$HOME/.secrets" ]] && source "$HOME/.secrets"
+[[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 
 # Vim mode
 bindkey -v
