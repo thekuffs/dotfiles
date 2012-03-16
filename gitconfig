@@ -1,8 +1,12 @@
 [alias]
+    ci = commit
+
     l = log
     lp = log --pretty=raw
-    s = status --short
+
     og = log origin/master..HEAD
+
+    s = status --short
 [color]
     ui = always
 [format]
