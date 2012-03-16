@@ -28,3 +28,6 @@
 [submodule "vim/bundle/Lokaltog-vim-powerline"]
 	path = vim/bundle/Lokaltog-vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
+[submodule "vim/bundle/othree-html5-syntax"]
+	path = vim/bundle/othree-html5-syntax
+	url = https://github.com/othree/html5-syntax.vim
