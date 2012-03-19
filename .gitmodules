@@ -31,3 +31,6 @@
 [submodule "vim/bundle/othree-html5-syntax"]
 	path = vim/bundle/othree-html5-syntax
 	url = https://github.com/othree/html5-syntax.vim
+[submodule "vim/bundle/vim-scripts-indentpython"]
+	path = vim/bundle/vim-scripts-indentpython
+	url = https://github.com/vim-scripts/indentpython.vim.git
