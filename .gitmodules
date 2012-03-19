@@ -34,3 +34,6 @@
 [submodule "vim/bundle/vim-scripts-indentpython"]
 	path = vim/bundle/vim-scripts-indentpython
 	url = https://github.com/vim-scripts/indentpython.vim.git
+[submodule "vim/bundle/jelera-vim-python-syntax"]
+	path = vim/bundle/jelera-vim-python-syntax
+	url = https://github.com/jelera/vim-python-syntax
