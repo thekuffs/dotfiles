@@ -37,3 +37,9 @@
 [submodule "vim/bundle/jelera-vim-python-syntax"]
 	path = vim/bundle/jelera-vim-python-syntax
 	url = https://github.com/jelera/vim-python-syntax
+[submodule "vim/bundle/vim-scripts-argtextobj"]
+	path = vim/bundle/vim-scripts-argtextobj
+	url = https://github.com/vim-scripts/argtextobj.vim
+[submodule "vim/bundle/michaeljsmith-vim-indent-object"]
+	path = vim/bundle/michaeljsmith-vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
