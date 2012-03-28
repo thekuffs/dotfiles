@@ -18,11 +18,12 @@ set showmode
 set autoread
 set ruler
 set modeline
+set cursorline
 set laststatus=2 " always show statusline
 set encoding=utf-8
 set bg=dark
 syntax on
-colorscheme solarized
+colorscheme molokai
 
 " gui
 set guioptions=egm
