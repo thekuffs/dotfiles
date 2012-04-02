@@ -46,3 +46,6 @@
 [submodule "vim/bundle/mrtazz-molokai"]
 	path = vim/bundle/mrtazz-molokai
 	url = https://github.com/mrtazz/molokai.vim.git
+[submodule "vim/bundle/rstacruz-sparkup"]
+	path = vim/bundle/rstacruz-sparkup
+	url = https://github.com/rstacruz/sparkup.git
