@@ -55,6 +55,12 @@ set expandtab
 filetype plugin on
 filetype indent on
 
+" 4 space tabs are great, except 2 is better for front-end
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
+autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+autocmd Filetype css setlocal ts=2 sts=2 sw=2
+autocmd Filetype less setlocal ts=2 sts=2 sw=2
+
 " display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
