@@ -1,6 +1,11 @@
 " use vim instead of vi settings
 set nocompatible
 
+" ~/.vimrc.before if it exists
+if filereadable(expand("~/.vimrc.before"))
+    source ~/.vimrc.before
+endif
+
 " pathogen
 runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
