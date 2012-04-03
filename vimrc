@@ -23,11 +23,11 @@ set laststatus=2 " always show statusline
 set encoding=utf-8
 set bg=dark
 syntax on
-colorscheme molokai
+colorscheme solarized
 
 " gui
 set guioptions=egm
-set guifont=Menlo\ Regular:h10
+set guifont=Monaco:h12
 
 " search
 set incsearch
