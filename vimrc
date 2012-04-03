@@ -40,8 +40,10 @@ set nobackup
 set nowb
 
 " persistent undo
-set undodir=~/.vim/backups
-set undofile
+if version >= 730
+    set undodir=~/.vim/backups
+    set undofile
+endif
 
 " indentation
 set autoindent
