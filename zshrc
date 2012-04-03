@@ -51,10 +51,15 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 export PYTHONSTARTUP=~/.dotfiles/etc/pystartup.py
 
 # virtualenv and pip settings
-export WORKON_HOME=$HOME/.envs
+export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/src
 source /usr/local/bin/virtualenvwrapper.sh
 
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
 
+mkmod() {
+    mkdir -p $1/{files,manifests,lib,templates,tests}
+    touch $1/{files,manifests,lib,templates,tests}/.keep
+    touch $1/{manifests,tests}/init.pp
+}
