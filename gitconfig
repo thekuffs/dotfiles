@@ -1,9 +1,11 @@
 [alias]
+    b = branch
+    ba = branch -a
+
     ci = commit
 
     l = log
     lp = log --pretty=raw
-
     og = log origin/master..HEAD
 
     s = status --short
