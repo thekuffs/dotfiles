@@ -1,0 +1,116 @@
+snippet cl
+	# == Class: ${1:class}
+	#
+	# Class description
+	#
+	# === Parameters
+	#
+	# This class has no parameters
+	#
+	# === Variables
+	#
+	# No global variable dependencies
+	#
+	# === Facts
+	#
+	# No external fact dependencies
+	#
+	# === Modules
+	#
+	# No external module dependencies
+	#
+	# === Examples
+	#
+	# class { '$1': }
+	#
+	# === Authors
+	#
+	# `$GIT_AUTHOR_NAME` <`$GIT_AUTHOR_EMAIL`>
+	#
+	# === Copyright
+	#
+	# Copyright `system("date +%Y")` `$COMPANY_NAME`
+
+	class $1 () {
+		${2:# code}
+	}
+
+snippet clin
+	# == Class: ${1:class}
+	#
+	# Class description
+	#
+	# === Parameters
+	#
+	# This class has no parameters
+	#
+	# === Variables
+	#
+	# No global variable dependencies
+	#
+	# === Facts
+	#
+	# No external fact dependencies
+	#
+	# === Modules
+	#
+	# No external module dependencies
+	#
+	# === Examples
+	#
+	# class { '${1}': }
+	#
+	# === Authors
+	#
+	# `$GIT_AUTHOR_NAME` <`$GIT_AUTHOR_EMAIL`>
+	#
+	# === Copyright
+	#
+	# Copyright `system("date +%Y")` `$COMPANY_NAME`
+
+	class ${1} () inherits ${2:parent}{
+		${3:# code}
+	}
+
+snippet def
+	# == Define: ${1:definition}
+	#
+	# Definition description
+	#
+	# === Parameters
+	#
+	# This class has no parameters
+	#
+	# === Variables
+	#
+	# No global variable dependencies
+	#
+	# === Facts
+	#
+	# No external fact dependencies
+	#
+	# === Modules
+	#
+	# No external module dependencies
+	#
+	# === Examples
+	#
+	# ${1} { 'somevalue': }
+	#
+	# === Authors
+	#
+	# `$GIT_AUTHOR_NAME` <`$GIT_AUTHOR_EMAIL`>
+	#
+	# === Copyright
+	#
+	# Copyright `system("date +%Y")` `$COMPANY_NAME`
+
+	define ${1} () {
+		${2:# code}
+	}
+
+snippet templ
+	template("${module_name}/${1}")
+
+snippet fileserv
+	"puppet:///modules/${module_name}/${1}"
