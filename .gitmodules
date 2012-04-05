@@ -46,3 +46,6 @@
 [submodule "vim/bundle/sleistner-vim-jshint"]
 	path = vim/bundle/sleistner-vim-jshint
 	url = https://github.com/sleistner/vim-jshint
+[submodule "vim/bundle/sjl-vim-sparkup"]
+	path = vim/bundle/sjl-vim-sparkup
+	url = https://github.com/sjl/vim-sparkup.git
