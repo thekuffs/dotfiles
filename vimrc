@@ -6,6 +6,13 @@ if filereadable(expand("~/.vimrc.before"))
     source ~/.vimrc.before
 endif
 
+" easy window navigation
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+
 " pathogen
 runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
@@ -52,10 +59,14 @@ set undofile
 set autoindent
 set smartindent
 set smarttab
+set textwidth=78
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 set expandtab
+
+" fix python comment tabbing
+autocmd BufRead *.py inoremap # X<c-h>#
 
 filetype plugin on
 filetype indent on
