@@ -1,9 +1,11 @@
 [alias]
+    b = branch
+    ba = branch -a
+
     ci = commit
 
-    l = log
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     lp = log --pretty=raw
-
     og = log origin/master..HEAD
 
     s = status --short

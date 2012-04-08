@@ -22,9 +22,6 @@
 [submodule "vim/bundle/vim-scripts-aspnetcs"]
 	path = vim/bundle/vim-scripts-aspnetcs
 	url = https://github.com/vim-scripts/aspnetcs.git
-[submodule "vim/bundle/hallettj-jslint"]
-	path = vim/bundle/hallettj-jslint
-	url = https://github.com/hallettj/jslint.vim
 [submodule "vim/bundle/Lokaltog-vim-powerline"]
 	path = vim/bundle/Lokaltog-vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
@@ -46,6 +43,9 @@
 [submodule "vim/bundle/mrtazz-molokai"]
 	path = vim/bundle/mrtazz-molokai
 	url = https://github.com/mrtazz/molokai.vim.git
-[submodule "vim/bundle/rstacruz-sparkup"]
-	path = vim/bundle/rstacruz-sparkup
-	url = https://github.com/rstacruz/sparkup.git
+[submodule "vim/bundle/sleistner-vim-jshint"]
+	path = vim/bundle/sleistner-vim-jshint
+	url = https://github.com/sleistner/vim-jshint
+[submodule "vim/bundle/sjl-vim-sparkup"]
+	path = vim/bundle/sjl-vim-sparkup
+	url = https://github.com/sjl/vim-sparkup.git
