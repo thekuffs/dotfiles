@@ -9,6 +9,8 @@
     og = log origin/master..HEAD
 
     s = status --short
+
+    sub = submodule update --init --recursive
 [color]
     ui = always
 [format]
