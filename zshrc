@@ -8,7 +8,7 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Example format: plugins=(rails git textmate ruby lighthouse)
-    plugins=(git python github)
+    plugins=(git git-flow python)
 
     # Load default oh-my-zsh stuff
     source $ZSH/oh-my-zsh.sh
@@ -32,7 +32,7 @@ zstyle ':completion:*:match:*' original only
 zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 # Add custom paths
-export PATH=/usr/local/bin:$PATH:$HOME/.dotfiles/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.dotfiles/bin
 
 # Better color settings for ls output.
 export LSCOLORS=ExFxCxDxBxegedabagacad

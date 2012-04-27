@@ -8,6 +8,8 @@
     lp = log --pretty=raw
     og = log origin/master..HEAD
 
+    m = merge --no-ff
+
     s = status --short
 
     sub = submodule update --init --recursive
