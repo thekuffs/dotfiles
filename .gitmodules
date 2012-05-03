@@ -52,6 +52,6 @@
 [submodule "vim/bundle/kchmck-vim-coffee-script"]
 	path = vim/bundle/kchmck-vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
-[submodule "vim/bundle/nvie-vim-flake8"]
-	path = vim/bundle/nvie-vim-flake8
-	url = https://github.com/nvie/vim-flake8.git
+[submodule "vim/bundle/klen-python-mode"]
+	path = vim/bundle/klen-python-mode
+	url = https://github.com/klen/python-mode.git
