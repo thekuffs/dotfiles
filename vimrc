@@ -12,6 +12,13 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
+" To disable a plugin, add it's bundle name to the following list
+let g:pathogen_disabled = []
+
+" plugins that don't play well unless in gui mode
+if !has('gui_running')
+    call add(g:pathogen_disabled, 'klen-python-mode')
+endif
 
 " pathogen
 runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
@@ -59,7 +66,6 @@ set undofile
 set autoindent
 set smartindent
 set smarttab
-set textwidth=78
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
@@ -76,6 +82,7 @@ autocmd Filetype html,htmldjango setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript,coffee setlocal ts=2 sts=2 sw=2
 autocmd Filetype css setlocal ts=2 sts=2 sw=2
 autocmd Filetype less setlocal ts=2 sts=2 sw=2
+autocmd Filetype python setlocal textwidth=78
 
 " display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
