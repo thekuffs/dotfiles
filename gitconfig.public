@@ -15,6 +15,6 @@
 
     sub = submodule update --init --recursive
 [color]
-    ui = always
+    ui = auto
 [format]
     pretty = oneline
