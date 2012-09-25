@@ -19,9 +19,6 @@
 [submodule "vim/bundle/hail2u-vim-css3-syntax"]
 	path = vim/bundle/hail2u-vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "vim/bundle/vim-scripts-aspnetcs"]
-	path = vim/bundle/vim-scripts-aspnetcs
-	url = https://github.com/vim-scripts/aspnetcs.git
 [submodule "vim/bundle/Lokaltog-vim-powerline"]
 	path = vim/bundle/Lokaltog-vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
