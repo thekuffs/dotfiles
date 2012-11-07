@@ -35,7 +35,7 @@ zstyle ':completion:*:match:*' original only
 zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 # Add custom paths
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.dotfiles/bin
+export PATH=$PATH:$HOME/.dotfiles/bin
 
 # Better color settings for ls output.
 export LSCOLORS=ExFxCxDxBxegedabagacad
