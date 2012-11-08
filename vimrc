@@ -95,7 +95,7 @@ set foldnestmax=3
 set nofoldenable
 
 " completion
-set wildmode=list:longest
+set wildmode=longest,list,full
 set wildmenu
 set wildignore=*.o,*.obj,*~
 set wildignore+=*vim/backups*
