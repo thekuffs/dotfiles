@@ -18,9 +18,5 @@
     ui = auto
 [format]
     pretty = oneline
-[hub]
-	host = github.firehost.net
-[github "github.firehost.net"]
-	user = atygart
 [push]
 	default = tracking
