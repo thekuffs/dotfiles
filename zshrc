@@ -22,6 +22,7 @@ source ~/.aliases
 
 # Always pushd when changing directory
 setopt auto_pushd
+setopt +o sharehistory
 
 # Turn off autocorrect, it's wrong more than it's right for me
 unsetopt correct_all
