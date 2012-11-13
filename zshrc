@@ -23,8 +23,16 @@ source ~/.aliases
 # Always pushd when changing directory
 setopt auto_pushd
 
+# Turn off autocorrect, it's wrong more than it's right for me
+unsetopt correct_all
+
+# Fuzzy matching of completions for when you mistype them:
+zstyle ':completion:*' completer _complete _match _approximate
+zstyle ':completion:*:match:*' original only
+zstyle ':completion:*:approximate:*' max-errors 1 numeric
+
 # Add custom paths
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.dotfiles/bin
+export PATH=$PATH:$HOME/.dotfiles/bin
 
 # Better color settings for ls output.
 export LSCOLORS=ExFxCxDxBxegedabagacad

@@ -2,7 +2,7 @@
 
 DIR=$( cd $( dirname "$0" ) && pwd )
 
-for file in aliases gitconfig gitignore vimrc vim zshrc; do
+for file in aliases gitignore vimrc vim zshrc; do
   if [[ ( -e ~/.$file ) || ( -h ~/.$file ) ]]; then
     mv ~/.$file ~/.$file.backup
   fi
@@ -13,6 +13,12 @@ done
 git submodule update --init
 
 ln -s $DIR ~/.dotfiles
+
+# backup existing git config, and inject the repo's
+if [[ ( -e ~/.gitconfig ) ]]; then
+  mv ~/.gitconfig ~/.gitconfig.backup
+fi
+echo -e "[include]\n    path = $DIR/gitconfig.public" > ~/.gitconfig
 
 # make some folders I like on every box
 mkdir ~/.envs   # virtualenvs

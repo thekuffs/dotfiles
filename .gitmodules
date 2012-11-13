@@ -19,9 +19,6 @@
 [submodule "vim/bundle/hail2u-vim-css3-syntax"]
 	path = vim/bundle/hail2u-vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "vim/bundle/vim-scripts-aspnetcs"]
-	path = vim/bundle/vim-scripts-aspnetcs
-	url = https://github.com/vim-scripts/aspnetcs.git
 [submodule "vim/bundle/Lokaltog-vim-powerline"]
 	path = vim/bundle/Lokaltog-vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
@@ -52,9 +49,6 @@
 [submodule "vim/bundle/kchmck-vim-coffee-script"]
 	path = vim/bundle/kchmck-vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
-[submodule "vim/bundle/nvie-vim-flake8"]
-	path = vim/bundle/nvie-vim-flake8
-	url = https://github.com/nvie/vim-flake8.git
 [submodule "vim/bundle/vim-arduino"]
 	path = vim/bundle/vim-arduino
 	url = git://github.com/tclem/vim-arduino.git
@@ -64,3 +58,9 @@
 [submodule "vim/bundle/vim-ps1"]
 	path = vim/bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
+[submodule "vim/bundle/klen-python-mode"]
+	path = vim/bundle/klen-python-mode
+	url = https://github.com/klen/python-mode.git
+[submodule "vim/bundle/nono-vim-handlebars"]
+	path = vim/bundle/nono-vim-handlebars
+	url = https://github.com/nono/vim-handlebars.git
