@@ -8,7 +8,7 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Example format: plugins=(rails git textmate ruby lighthouse)
-    plugins=(git git-flow python)
+    plugins=(git python)
 
     # Load default oh-my-zsh stuff
     source $ZSH/oh-my-zsh.sh
@@ -20,16 +20,8 @@ source ~/.aliases
 # Things I don't want to publish to github
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 
-# Vim mode
-bindkey -v
-
 # Always pushd when changing directory
 setopt auto_pushd
-
-# Fuzzy matching of completions for when you mistype them:
-zstyle ':completion:*' completer _complete _match _approximate
-zstyle ':completion:*:match:*' original only
-zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 # Add custom paths
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.dotfiles/bin
@@ -58,8 +50,5 @@ source /usr/local/bin/virtualenvwrapper.sh
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
 
-mkmod() {
-    mkdir -p $1/{files,manifests,lib,templates,tests}
-    touch $1/{files,manifests,lib,templates,tests}/.keep
-    touch $1/{manifests,tests}/init.pp
-}
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
