@@ -78,6 +78,7 @@ autocmd Filetype html,htmldjango setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript,coffee setlocal ts=2 sts=2 sw=2
 autocmd Filetype css setlocal ts=2 sts=2 sw=2
 autocmd Filetype less setlocal ts=2 sts=2 sw=2
+autocmd Filetype sls setlocal ts=2 sts=2 sw=2
 
 " display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
