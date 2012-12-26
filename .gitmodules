@@ -61,3 +61,6 @@
 [submodule "vim/bundle/nono-vim-handlebars"]
 	path = vim/bundle/nono-vim-handlebars
 	url = https://github.com/nono/vim-handlebars.git
+[submodule "vim/bundle/klen-python-mode"]
+	path = vim/bundle/klen-python-mode
+	url = https://github.com/klen/python-mode.git
