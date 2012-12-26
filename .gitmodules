@@ -58,9 +58,6 @@
 [submodule "vim/bundle/vim-ps1"]
 	path = vim/bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
-[submodule "vim/bundle/klen-python-mode"]
-	path = vim/bundle/klen-python-mode
-	url = https://github.com/klen/python-mode.git
 [submodule "vim/bundle/nono-vim-handlebars"]
 	path = vim/bundle/nono-vim-handlebars
 	url = https://github.com/nono/vim-handlebars.git
