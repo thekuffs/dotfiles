@@ -16,7 +16,7 @@ map <c-l> <c-w>l
 map <c-h> <c-w>h
 
 " pathogen
-runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
