@@ -1,63 +1,57 @@
-[submodule "vim/bundle/tpope-vim-pathogen"]
-	path = vim/bundle/tpope-vim-pathogen
-	url = https://github.com/tpope/vim-pathogen
-    ignore = dirty
-[submodule "vim/bundle/kien-ctrlp"]
-	path = vim/bundle/kien-ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
-    ignore = dirty
-[submodule "vim/bundle/msanders-snipmate"]
-	path = vim/bundle/msanders-snipmate
-	url = https://github.com/msanders/snipmate.vim.git
-    ignore = dirty
-[submodule "vim/bundle/altercation-vim-colors-solarized"]
-	path = vim/bundle/altercation-vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/bundle/groenewege-vim-less"]
-	path = vim/bundle/groenewege-vim-less
-	url = https://github.com/groenewege/vim-less.git
-[submodule "vim/bundle/hail2u-vim-css3-syntax"]
-	path = vim/bundle/hail2u-vim-css3-syntax
-	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "vim/bundle/Lokaltog-vim-powerline"]
-	path = vim/bundle/Lokaltog-vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline
-[submodule "vim/bundle/othree-html5-syntax"]
-	path = vim/bundle/othree-html5-syntax
-	url = https://github.com/othree/html5-syntax.vim
-[submodule "vim/bundle/vim-scripts-indentpython"]
-	path = vim/bundle/vim-scripts-indentpython
-	url = https://github.com/vim-scripts/indentpython.vim.git
-[submodule "vim/bundle/jelera-vim-python-syntax"]
-	path = vim/bundle/jelera-vim-python-syntax
-	url = https://github.com/jelera/vim-python-syntax
-[submodule "vim/bundle/vim-scripts-argtextobj"]
-	path = vim/bundle/vim-scripts-argtextobj
-	url = https://github.com/vim-scripts/argtextobj.vim
-[submodule "vim/bundle/michaeljsmith-vim-indent-object"]
-	path = vim/bundle/michaeljsmith-vim-indent-object
-	url = https://github.com/michaeljsmith/vim-indent-object
-[submodule "vim/bundle/mrtazz-molokai"]
-	path = vim/bundle/mrtazz-molokai
-	url = https://github.com/mrtazz/molokai.vim.git
-[submodule "vim/bundle/sleistner-vim-jshint"]
-	path = vim/bundle/sleistner-vim-jshint
-	url = https://github.com/sleistner/vim-jshint
-[submodule "vim/bundle/sjl-vim-sparkup"]
-	path = vim/bundle/sjl-vim-sparkup
-	url = https://github.com/sjl/vim-sparkup.git
-[submodule "vim/bundle/kchmck-vim-coffee-script"]
-	path = vim/bundle/kchmck-vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script
+[submodule "vim/bundle/vim-pathogen"]
+	path = vim/bundle/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = git://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/snipmate.vim"]
+	path = vim/bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/vim-less"]
+	path = vim/bundle/vim-less
+	url = git://github.com/groenewege/vim-less.git
+[submodule "vim/bundle/vim-css3-syntax"]
+	path = vim/bundle/vim-css3-syntax
+	url = git://github.com/hail2u/vim-css3-syntax.git
+[submodule "vim/bundle/vim-powerline"]
+	path = vim/bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline
+[submodule "vim/bundle/html5-syntax.vim"]
+	path = vim/bundle/html5-syntax.vim
+	url = git://github.com/othree/html5-syntax.vim
+[submodule "vim/bundle/indentpython.vim"]
+	path = vim/bundle/indentpython.vim
+	url = git://github.com/vim-scripts/indentpython.vim.git
+[submodule "vim/bundle/argtextobj.vim"]
+	path = vim/bundle/argtextobj.vim
+	url = git://github.com/vim-scripts/argtextobj.vim
+[submodule "vim/bundle/vim-indent-object"]
+	path = vim/bundle/vim-indent-object
+	url = git://github.com/michaeljsmith/vim-indent-object
+[submodule "vim/bundle/molokai.vim"]
+	path = vim/bundle/molokai.vim
+	url = git://github.com/mrtazz/molokai.vim.git
+[submodule "vim/bundle/vim-jshint"]
+	path = vim/bundle/vim-jshint
+	url = git://github.com/sleistner/vim-jshint
+[submodule "vim/bundle/vim-sparkup"]
+	path = vim/bundle/vim-sparkup
+	url = git://github.com/sjl/vim-sparkup.git
+[submodule "vim/bundle/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script
 [submodule "vim/bundle/vim-arduino"]
 	path = vim/bundle/vim-arduino
 	url = git://github.com/tclem/vim-arduino.git
 [submodule "vim/bundle/salt-vim"]
 	path = vim/bundle/salt-vim
-	url = https://github.com/saltstack/salt-vim.git
+	url = git://github.com/saltstack/salt-vim.git
 [submodule "vim/bundle/vim-ps1"]
 	path = vim/bundle/vim-ps1
-	url = https://github.com/PProvost/vim-ps1.git
+	url = git://github.com/PProvost/vim-ps1.git
 [submodule "vim/bundle/python-mode"]
 	path = vim/bundle/python-mode
 	url = git://github.com/klen/python-mode.git
@@ -70,12 +64,12 @@
 [submodule "vim/bundle/vim-indent-guides"]
 	path = vim/bundle/vim-indent-guides
 	url = git@github.com:nathanaelkane/vim-indent-guides.git
-[submodule "vim/bundle/scrooloose-nerdcommenter"]
-	path = vim/bundle/scrooloose-nerdcommenter
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
-[submodule "vim/bundle/handlebars-syntax"]
-	path = vim/bundle/handlebars-syntax
+[submodule "vim/bundle/vim-handlebars"]
+	path = vim/bundle/vim-handlebars
 	url = git://github.com/nono/vim-handlebars.git
-[submodule "vim/bundle/bkad-camelcasemotion"]
-	path = vim/bundle/bkad-camelcasemotion
+[submodule "vim/bundle/CamelCaseMotion"]
+	path = vim/bundle/CamelCaseMotion
 	url = git@github.com:bkad/CamelCaseMotion.git
