@@ -1,3 +1,9 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+.ropeproject
+
 # OSX, from: https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
 .DS_Store
 ._*
