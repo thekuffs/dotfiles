@@ -5,10 +5,11 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
 
     # Set name of the theme to load.
     ZSH_THEME="robbyrussell"
+    CASE_SENSITIVE="true"
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Example format: plugins=(rails git textmate ruby lighthouse)
-    plugins=(git python)
+    plugins=(git python brew)
 
     # Load default oh-my-zsh stuff
     source $ZSH/oh-my-zsh.sh
