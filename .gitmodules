@@ -19,9 +19,6 @@
 [submodule "vim/bundle/vim-css3-syntax"]
 	path = vim/bundle/vim-css3-syntax
 	url = git@github.com:hail2u/vim-css3-syntax.git
-[submodule "vim/bundle/vim-powerline"]
-	path = vim/bundle/vim-powerline
-	url = git@github.com:Lokaltog/vim-powerline.git
 [submodule "vim/bundle/html5-syntax"]
 	path = vim/bundle/html5-syntax
 	url = git@github.com:othree/html5-syntax.vim
@@ -76,3 +73,6 @@
 [submodule "vim/bundle/CamelCaseMotion"]
 	path = vim/bundle/CamelCaseMotion
 	url = git@github.com:bkad/CamelCaseMotion.git
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
