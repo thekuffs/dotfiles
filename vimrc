@@ -41,7 +41,7 @@ colorscheme solarized
 
 " gui
 set guioptions=egm
-set guifont=Monaco:h12
+set guifont=Monaco\ for\ Powerline:h12
 
 " search
 set incsearch
@@ -63,7 +63,6 @@ endif
 set autoindent
 set smartindent
 set smarttab
-set textwidth=78
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
