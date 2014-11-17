@@ -41,7 +41,7 @@ colorscheme solarized
 
 " gui
 set guioptions=egm
-set guifont=Monaco\ for\ Powerline:h12
+set guifont=Source\ Code\ Pro\ for\ Powerline:h12
 
 " search
 set incsearch
