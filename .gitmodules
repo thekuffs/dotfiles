@@ -80,3 +80,6 @@
 [submodule "vim/bundle/thrift.vim"]
 	path = vim/bundle/thrift.vim
 	url = git@github.com:solarnz/thrift.vim.git
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
