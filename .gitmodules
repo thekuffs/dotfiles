@@ -4,10 +4,6 @@
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim.git
-[submodule "vim/bundle/snipmate.vim"]
-	path = vim/bundle/snipmate.vim
-	url = git@github.com:msanders/snipmate.vim.git
-    ignore = dirty
 [submodule "vim/bundle/vim-colors-solarized"]
 	path = vim/bundle/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
@@ -29,27 +25,15 @@
 [submodule "vim/bundle/vim-indent-object"]
 	path = vim/bundle/vim-indent-object
 	url = git@github.com:michaeljsmith/vim-indent-object.git
-[submodule "vim/bundle/molokai.vim"]
-	path = vim/bundle/molokai.vim
-	url = git@github.com:mrtazz/molokai.vim.git
 [submodule "vim/bundle/vim-jshint"]
 	path = vim/bundle/vim-jshint
 	url = git@github.com:sleistner/vim-jshint.git
 [submodule "vim/bundle/vim-sparkup"]
 	path = vim/bundle/vim-sparkup
 	url = git@github.com:sjl/vim-sparkup.git
-[submodule "vim/bundle/vim-coffee-script"]
-	path = vim/bundle/vim-coffee-script
-	url = git@github.com:kchmck/vim-coffee-script.git
 [submodule "vim/bundle/vim-arduino"]
 	path = vim/bundle/vim-arduino
 	url = git@github.com:tclem/vim-arduino.git
-[submodule "vim/bundle/salt-vim"]
-	path = vim/bundle/salt-vim
-	url = git@github.com:saltstack/salt-vim.git
-[submodule "vim/bundle/vim-ps1"]
-	path = vim/bundle/vim-ps1
-	url = git@github.com:PProvost/vim-ps1.git
 [submodule "vim/bundle/python-mode"]
 	path = vim/bundle/python-mode
 	url = git@github.com:klen/python-mode.git
