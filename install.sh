@@ -2,7 +2,7 @@
 
 DIR=$( cd $( dirname "$0" ) && pwd )
 
-for file in aliases gitignore vimrc vim zshrc; do
+for file in aliases gitignore vimrc vim zshrc functions; do
   if [[ ( -e ~/.$file ) || ( -h ~/.$file ) ]]; then
     mv ~/.$file ~/.$file.backup
   fi

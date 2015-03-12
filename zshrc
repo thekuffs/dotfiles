@@ -9,7 +9,7 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Example format: plugins=(rails git textmate ruby lighthouse)
-    plugins=(git python brew)
+    plugins=(git python brew git-flow)
 
     # Load default oh-my-zsh stuff
     source $ZSH/oh-my-zsh.sh
@@ -17,6 +17,7 @@ fi
 
 # Configuration
 source ~/.aliases
+source ~/.functions
 
 # Things I don't want to publish to github
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
