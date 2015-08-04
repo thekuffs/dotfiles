@@ -41,7 +41,10 @@ colorscheme solarized
 
 " gui
 set guioptions=egm
-set guifont=Source\ Code\ Pro\ for\ Powerline:h12
+set guifont=Source\ Code\ Pro\ for\ Powerline\ 10
+if has("gui_macvim")
+    set guifont=Source\ Code\ Pro\ for\ Powerline:h12
+endif
 
 " search
 set incsearch
