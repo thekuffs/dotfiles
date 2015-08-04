@@ -4,7 +4,7 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
     ZSH=$HOME/.oh-my-zsh
 
     # Set name of the theme to load.
-    ZSH_THEME="robbyrussell"
+    ZSH_THEME="agnoster"
     CASE_SENSITIVE="true"
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
