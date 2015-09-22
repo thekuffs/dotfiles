@@ -85,9 +85,8 @@ autocmd Filetype css,less,sass,scss,stylus setlocal ts=2 sts=2 sw=2
 autocmd Filetype python setlocal textwidth=78
 autocmd FileType markdown,gitcommit setlocal spell spelllang=en_us
 autocmd FileType puppet setlocal ts=2 sts=2 sw=2
-
-" display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:·
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2
+autocmd FileType htmlcheetah setlocal ts=2 sts=2 sw=2
 
 set nowrap
 set linebreak
@@ -121,6 +120,3 @@ endfor
 if filereadable(expand("~/.vimrc.after"))
     source ~/.vimrc.after
 endif
-
-" fix python comment tabbing
-autocmd BufRead *.py inoremap # X<c-h>#
