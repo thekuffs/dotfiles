@@ -23,10 +23,12 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
     plugins=(git python virtualenv virtualenvwrapper)
 
     # Set name of the theme to load.
-    ZSH_THEME="agnoster"
-    #ZSH_THEME="powerlevel9k/powerlevel9k"
-    #POWERLEVEL_9k_LEFT_PROMPT_ELEMENTS=(context dir virtualenv vcs)
-    #POWERLEVEL_9k_RIGHT_PROMPT_ELEMENTS=(status history time)
+    #ZSH_THEME="agnoster"
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv context dir vcs)
+    #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
+    POWERLEVEL9K_DISABLE_RPROMPT=true
+    POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+    ZSH_THEME="powerlevel9k/powerlevel9k"
     CASE_SENSITIVE="true"
 
     # Load default oh-my-zsh stuff
@@ -55,6 +57,7 @@ zstyle ':completion:*:approximate:*' max-errors 1 numeric
 # Better color settings for ls output.
 if [ "$(uname -s)test" = "OSXtest" ]; then
     export LSCOLORS=ExFxCxDxBxegedabagacad
+    #export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 fi
 
 if [[ -f .dircolors ]]; then
