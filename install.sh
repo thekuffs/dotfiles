@@ -2,7 +2,7 @@
 
 DIR=$( cd $( dirname "$0" ) && pwd )
 
-for file in aliases gitignore vimrc vim zshrc functions; do
+for file in aliases gitignore vimrc vim zshrc functions tmux.conf; do
   if [[ ( -e ~/.$file ) || ( -h ~/.$file ) ]]; then
     mv ~/.$file ~/.$file.backup
   fi
