@@ -73,6 +73,7 @@ set expandtab
 
 " fix python comment tabbing
 autocmd BufRead *.py inoremap # X<c-h>#
+autocmd BufRead Vagrantfile setlocal ft=ruby
 
 filetype plugin on
 filetype indent on
