@@ -6,6 +6,6 @@ let g:ctrlp_regexp = 1
 
 " Let's ignore version control and compiled files
 let g:ctrlp_custom_ignore = {
-    \ 'dir':    '\v[\/](\.(git|hg|svn)|node_modules)$',
+    \ 'dir':    '\v[\/](\.(git|hg|svn)|node_modules|vendor)$',
     \ 'file':   '\.pyc$',
     \ }
