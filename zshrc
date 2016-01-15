@@ -1,5 +1,3 @@
-# Source oh-my-zsh if it is installed
-
 # virtualenv and pip settings
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/src
@@ -55,7 +53,7 @@ zstyle ':completion:*:match:*' original only
 zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 # Better color settings for ls output.
-if [ "$(uname -s)test" = "OSXtest" ]; then
+if [ "$(uname -s)test" = "Darwintest" ]; then
     export LSCOLORS=ExFxCxDxBxegedabagacad
     #export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 fi
