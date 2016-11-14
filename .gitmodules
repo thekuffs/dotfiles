@@ -40,9 +40,6 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
-[submodule "vim/bundle/thrift.vim"]
-	path = vim/bundle/thrift.vim
-	url = git@github.com:solarnz/thrift.vim.git
 [submodule "vim/bundle/vim-go"]
 	path = vim/bundle/vim-go
 	url = git@github.com:fatih/vim-go.git
@@ -55,9 +52,6 @@
 [submodule "vim/bundle/coveragepy.vim"]
 	path = vim/bundle/coveragepy.vim
 	url = git@github.com:alfredodeza/coveragepy.vim.git
-[submodule "vim/bundle/vim-ansible-yaml"]
-	path = vim/bundle/vim-ansible-yaml
-	url = git://github.com/chase/vim-ansible-yaml.git
 [submodule "vim/bundle/rainbow"]
 	path = vim/bundle/rainbow
 	url = git@github.com:luochen1990/rainbow.git
