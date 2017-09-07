@@ -1,5 +1,10 @@
+# vim: set ft=zsh
 cdp () {
     cd "$(python -c "import os.path as _, ${1}; \
             print(_.dirname(_.realpath(${1}.__file__[:-1])))"
         )"
+}
+
+rebase_fork () {
+    git rebase -i "$(git merge-base --fork-point ${1})"
 }

@@ -18,14 +18,25 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Example format: plugins=(rails git textmate ruby lighthouse)
-    plugins=(git python virtualenv virtualenvwrapper)
+    plugins=(vi-mode git python aws httpie nvm go virtualenvwrapper virtualenv k8s)
+    export KEYTIMEOUT=1
 
-    # Set name of the theme to load.
-    #ZSH_THEME="agnoster"
-    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv context dir vcs)
-    #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
+    #POWERLEVEL9K_MODE="powerline"
+    POWERLEVEL9K_MODE="awesome-fontconfig"
+    # this shortens the prompt significantly
+    POWERLEVEL9K_VCS_GIT_ICON=''
+    POWERLEVEL9K_PYTHON_ICON=''
+    POWERLEVEL9K_VCS_GIT_ICON=''
+    POWERLEVEL9K_HOME_ICON=''
+    POWERLEVEL9K_HOME_SUB_ICON=''
+    POWERLEVEL9K_FOLDER_ICON=''
+    POWERLEVEL9K_VIRTUALENV_BACKGROUND='green'
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(k8s virtualenv dir vcs)
+    #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(k8s)
     POWERLEVEL9K_DISABLE_RPROMPT=true
     POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+    POWERLEVEL9K_SHORTEN_DELIMITER=""
+    POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
     ZSH_THEME="powerlevel9k/powerlevel9k"
     CASE_SENSITIVE="true"
 

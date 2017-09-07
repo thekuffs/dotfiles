@@ -112,6 +112,8 @@ set sidescroll=1
 " Tap enter to stop highlighting search, highlighting returns upon pressing n
 " or new search.
 nnoremap <CR> :noh<CR><CR>
+vnoremap <leader>64d c<c-r>=system('base64 --decode', @")<cr><esc>
+vnoremap <leader>64e c<c-r>=system('base64', @")<cr><esc>
 
 " Load custom settings for vim plugins
 for f in split(glob('~/.vim/plugin/settings/*.vim'), '\n')

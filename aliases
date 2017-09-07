@@ -1,5 +1,2 @@
-# ls
-alias ls="ls -G -F"
-alias ll="ls -G -F -l"
-alias la="ls -G -F -l -a"
-
+alias ls="ls -G -F --color=auto"
+alias ssh='TERM=xterm-256color ssh'
